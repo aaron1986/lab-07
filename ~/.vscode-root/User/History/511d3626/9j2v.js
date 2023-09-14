@@ -1,14 +1,11 @@
  function RickAshley() {
     let repsonse = prompt("Do you like Rick Ashley");
     let message = "I have given you up!";
-    let error = "You must enter either yes or no.. you fool!";
 
-    if(repsonse == "yes" || repsonse == "YES") {
+    if(repsonse.toLowerCase == "yes") {
         window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ/embed/VIDEO_ID?autoplay=1";
-    } else if (repsonse == "no" || repsonse == "NO") {
+    } else if (repsonse.toLowerCase === "NO") {
         document.write(message); 
-    } else {
-        document.write(error); 
     }
     
 } 
