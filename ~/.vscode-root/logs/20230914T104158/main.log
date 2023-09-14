@@ -1,0 +1,5 @@
+2023-09-14 10:41:59.691 [info] update#setState idle
+2023-09-14 10:42:29.011 [info] update#setState checking for updates
+2023-09-14 10:42:29.013 [info] update#setState idle
+2023-09-14 10:43:33.010 [info] Extension host with pid 6078 exited with code: 0, signal: unknown.
+2023-09-14 10:44:51.394 [error] CodeWindow: detected unresponsive
