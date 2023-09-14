@@ -1,4 +1,4 @@
- function RickAshley() {
+/* function RickAshley() {
     let repsonse = prompt("Do you like Rick Ashley");
     let message = "I have given you up!";
 
@@ -8,21 +8,21 @@
         document.write(message); 
     }
     
-} 
+}  */
 
 
 /* Write a function that takes two numbers as a parameter, adds them together
     and returns (either in the console or page) the result.*/
 
 
- /*    function myNumbers(num1, num2) {
+    function myNumbers(num1, num2) {
         document.write(num1 + num2);
-    } */
+    }
 
 /* Update the function to take a third parameter, that will change which
     mathematical operator will be used */
 
-/*     function newOperator(num1, num2, mathOperator) {
+    function newOperator(num1, num2, mathOperator) {
         if(mathOperator === "add") {
             return num1 + num2;
         } else if(mathOperator === "Multiply") {
@@ -33,11 +33,11 @@
             return num1 / num2;
         }
     }
- */
+
     /* Update your function so that a user can give each arguments value 
        in a prompt */
 
-   /*     function finalSolution() {
+       function finalSolution() {
         let answer1 = prompt("Enter 1st Number ");
         let number1 = parseInt(answer1);
 
@@ -53,13 +53,12 @@
             document.write(number1 * number2);
         } else if (answer_operation || answer_operation.toLowerCase == "subtract") {
             document.write(number1 - number2);
-            //DOESN'T SHOW ZERO??
         } else if(answer_operation || answer_operation.toLowerCase == "divide") {
             document.write(number1 / number2);
         }
 
        }
- */
+
 
 
 
